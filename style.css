@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background: black;
+}
+#list1{
+    background-color: brown;
+}
+
+#list1 h3{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.card-body{
+    background-color:brown;
+}
+
+.card-title{
+    color: white !important;
+}
+
+.card-text{
+    color: yellowgreen;
+}
